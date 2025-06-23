@@ -19,13 +19,13 @@ This is a simple decentralized application (dApp) built with React, Vite, and Et
 
 ## Setup Instructions
 
-1. Clone this repository:
+Step 1: Clone this repository:
    ```bash
    git clone https://github.com/Aloia2002/web3-dapp.git
    cd web3-dapp
-2.
+Step 2:
    ```bash
    npm install
-3.
+Step 3:
    ```bash
    npm run dev
