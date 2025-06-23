@@ -22,10 +22,13 @@ This is a simple decentralized application (dApp) built with React, Vite, and Et
 1. 
    ```bash
    git clone https://github.com/Aloia2002/web3-dapp.git
-   cd web3-dapp
+
 2.
    ```bash
-   npm install
+   cd web3-dapp
 3.
+   ```bash
+   npm install
+4.
    ```bash
    npm run dev
