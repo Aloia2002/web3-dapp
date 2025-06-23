@@ -1,0 +1,68 @@
+/* Reset and base */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-color: var(--bg);
+  color: var(--fg);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light/Dark mode using CSS variables */
+.dark {
+  --bg: #111;
+  --fg: #fff;
+}
+
+.light {
+  --bg: #fff;
+  --fg: #000;
+}
+
+/* Absolute top-right toggle */
+.theme-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Main content perfectly centered */
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+/* UI Elements */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  background-color: white;
+  color: black;
+}
+
+
